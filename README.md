@@ -4,7 +4,7 @@
 
 There is a challenge managing purchase order changes due to the lack of visual context the user has. In today’s supply chain environment there is a great number of communication between vendors and merchants to have PO’s adjusted according to many factors; shipping cost, production changes, packagiong, etc. All change requests are flowed through the merchant team, then handed off to the supply chain team to have internal logs updated. Although a supply chain team is present, the merchants have ownership of any delay in goods. 
 
-## Proposed work
+## Proposed work   
 
 The intent of this application is to offer the user a visual hub of their current inbound goods. The user wil be able to use the application to illustrate program risk factors for communication with cross-departmental partners across the organization.
 
