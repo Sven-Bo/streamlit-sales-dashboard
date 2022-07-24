@@ -1,28 +1,37 @@
+# Overview
 
-# Interactive Dashboard with Python – Streamlit
+## Problem statement
 
-Sales Dashboard built in Python and the Streamlit library to visualize Excel data.
+There is a challenge managing purchase order changes due to the lack of visual context the user has. In today’s supply chain environment there is a great number of communication between vendors and merchants to have PO’s adjusted according to many factors; shipping cost, production changes, packagiong, etc. All change requests are flowed through the merchant team, then handed off to the supply chain team to have internal logs updated. Although a supply chain team is present, the merchants have ownership of any delay in goods. 
 
-## Demo
-Sales Dashboard: https://dashboard-cis.herokuapp.com/
+## Proposed work
 
-## Screenshot
+The intent of this application is to offer the user a visual hub of their current inbound goods. The user wil be able to use the application to illustrate program risk factors for communication with cross-departmental partners across the organization.
 
-![Dashboar Screenshot](https://content.screencast.com/users/jubbel3/folders/Snagit/media/64b4d64a-4e59-4bec-9f16-771eb1a99005/08.18.2021-19.50.jpg)
+# Dependencies & risks
 
+## Stakeholders
 
-## Author
+Who are the critical stakeholders? Regarding what topics?
 
-- Sven from Coding Is Fun
-- YouTube: https://youtube.com/c/CodingIsFun
-- Website: https://pythonandvba.com
+- Merchant (user)
 
+## Risks
 
+What are the risks?
 
-## Feedback
+- Inaccuracy of real-time data
 
-If you have any feedback, please reach out to me at contact@pythonandvba.com
+## Dependencies
 
+What are the dependencies? Include both internal (other teams) and external (partners).
 
-![Logo](https://www.pythonandvba.com/banner-img)
+- Vendor communication
+- Merchant understanding
+- Supply chain data update
 
+# Success criteria
+
+The criteria that must be met to consider this project a success. 
+
+- Subjective: Good UX measured by use-case and visual presentation of data
