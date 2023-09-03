@@ -13,7 +13,7 @@ import streamlit as st  # pip install streamlit
 st.set_page_config(page_title="Sales Dashboard", page_icon=":bar_chart:", layout="wide")
 
 # ---- READ EXCEL ----
-@st.cache
+@st.cache_data
 def get_data_from_excel():
     df = pd.read_excel(
         io="supermarkt_sales.xlsx",
@@ -53,6 +53,11 @@ df_selection = df.query(
     "City == @city & Customer_type ==@customer_type & Gender == @gender"
 )
 
+# Check if the dataframe is empty:
+if df_selection.empty:
+    st.warning("No data available based on the current filter settings!")
+    st.stop() # This will halt the app from further execution.
+
 # ---- MAINPAGE ----
 st.title(":bar_chart: Sales Dashboard")
 st.markdown("##")
@@ -77,9 +82,7 @@ with right_column:
 st.markdown("""---""")
 
 # SALES BY PRODUCT LINE [BAR CHART]
-sales_by_product_line = (
-    df_selection.groupby(by=["Product line"]).sum()[["Total"]].sort_values(by="Total")
-)
+sales_by_product_line = df_selection.groupby(by=["Product line"])[["Total"]].sum().sort_values(by="Total")
 fig_product_sales = px.bar(
     sales_by_product_line,
     x="Total",
@@ -95,7 +98,7 @@ fig_product_sales.update_layout(
 )
 
 # SALES BY HOUR [BAR CHART]
-sales_by_hour = df_selection.groupby(by=["hour"]).sum()[["Total"]]
+sales_by_hour = df_selection.groupby(by=["hour"])[["Total"]].sum()
 fig_hourly_sales = px.bar(
     sales_by_hour,
     x=sales_by_hour.index,
