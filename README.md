@@ -33,7 +33,7 @@ I've developed some handy Excel add-ins that you might find useful:
   - And much more!
 
 
-## 🤝 Get to Know Me & Stay Connected
+## 🤝 Connect with Me
 - 📺 **YouTube:** [CodingIsFun](https://youtube.com/c/CodingIsFun)
 - 🌐 **Website:** [PythonAndVBA](https://pythonandvba.com)
 - 💬 **Discord:** [Join our Community](https://pythonandvba.com/discord)
