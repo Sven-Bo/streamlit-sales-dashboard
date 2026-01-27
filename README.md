@@ -23,16 +23,15 @@ Sales Dashboard: https://www.salesdashboard.pythonandvba.com/
 
 
 
-## 💡 Explore My Solutions
-From Excel add-ins to messaging tools and logistics solutions.
+## More Solutions
+Explore my tools and templates for Excel, automation, and more.
 
-👉 **[See All Solutions](https://pythonandvba.com/solutions)**## 🤝 Connect with Me
-- 📺 **YouTube:** [CodingIsFun](https://youtube.com/c/CodingIsFun)
-- 🌐 **Website:** [PythonAndVBA](https://pythonandvba.com)
-- 💬 **Discord:** [Join our Community](https://pythonandvba.com/discord)
-- 💼 **LinkedIn:** [Sven Bosau](https://www.linkedin.com/in/sven-bosau/)
-- 📸 **Instagram:** [Follow me](https://www.instagram.com/sven_bosau/)
-
+**[View all solutions](https://pythonandvba.com/solutions)**
+## Connect with Me
+- **YouTube:** [CodingIsFun](https://youtube.com/c/CodingIsFun)
+- **Website:** [PythonAndVBA](https://pythonandvba.com)
+- **LinkedIn:** [Sven Bosau](https://www.linkedin.com/in/sven-bosau/)
+- **Contact:** [Get in Touch](https://pythonandvba.com/contact)
 ## ☕️ Support My Work
 Love my content and want to show appreciation? Why not [buy me a coffee](https://pythonandvba.com/coffee-donation) to fuel my creative engine? Your support means the world to me! 😊
 
