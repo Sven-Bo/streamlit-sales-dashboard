@@ -1,0 +1,6 @@
+.git
+__pycache__
+*.pyc
+.env
+Dashboard_Sample.png
+README.md
